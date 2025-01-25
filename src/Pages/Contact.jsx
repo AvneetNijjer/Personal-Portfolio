@@ -139,6 +139,8 @@ const ContactPage = () => {
               {/* FormSubmit Configuration */}
               <input type="hidden" name="_template" value="table" />
               <input type="hidden" name="_captcha" value="false" />
+              {/* Redirect to the same page or custom thank you page */}
+              <input type="hidden" name="_next" value="https://avneetnijjer.ca"/>
 
               <div
                 data-aos="fade-up"
