@@ -52,13 +52,7 @@ const ProfileImage = memo(() => (
           <img
             src="User.jpg"
             alt="Profile"
-            className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:rotate-2"
-            className=" 
-            w-full h-full
-            object-cover
-            object-[10%_30%]           /* show 40% from left, 30% from top */
-            transition-all duration-700
-            group-hover:scale-110 group-hover:rotate-2"
+            className="w-full h-full object-cover translate-y-[15%] translate-x-[-10%] transition-all duration-700 group-hover:scale-110 group-hover:rotate-2"
             loading="lazy"
           />
 
